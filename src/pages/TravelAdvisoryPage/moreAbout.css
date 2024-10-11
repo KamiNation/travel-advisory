@@ -1,0 +1,115 @@
+#person{
+    /* margin-top: 10%; */
+    /* background: rgb(216, 229, 231);; */
+    width: 100%;
+    /* border-radius: 10px; */
+    display: flex;
+    /* flex-direction: row; */
+    height: auto;
+    align-items: center;
+    padding: 2% 0 2% 0;
+    justify-content: center;
+  }
+  #person .userCard{
+    width: 80%;
+    /* background-color: rgba(175, 204, 211, 0.494); */
+    display: flex;
+    border-radius: 10px;
+    justify-content: space-between;
+    box-shadow: 3px 3px 15px rgb(181, 181, 181);
+    align-items: center;
+    padding: 50px 15px 50px 15px ;
+  }
+  .right{
+    margin-left: 10px;
+    width: 35%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+  }
+  .left{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: flex-start;
+    height: inherit;
+  }
+  .left1 h1{
+    font-size: 1.2rem;
+  }
+  .tittlee{
+    font-size: 1rem;
+  }
+  .third{
+    width: 60%;
+   display: flex;
+  flex-direction: column;
+  
+  justify-content: space-between;
+  }
+  .right .img{
+    /* width:700px; */
+    /* height: 400px; */
+  }
+  .right img{
+    width: 90%;
+    border-radius: 10%;
+    height: 300px;
+  }
+  .third p{
+    display: flex;
+    align-items: flex-end;
+    /* justify-content: end; */
+    width: auto;
+  }
+  .goLive{
+    align-self: flex-end;
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+  }
+  .goLive p{
+    /* font-size: 1rem; */
+    margin-bottom: 10px;
+    /* font-weight: 500; */
+  }
+  .goLive button{
+    align-items: center;
+    height: 43px;
+    width: 150px;
+    text-align: center;
+    background-color: #0a32ac;
+    color: white;
+    border-radius: 8px;
+    border: none;
+    font-size: 20px;
+    /* border-color: rgba(1, 98, 141, 1); */
+    font-weight: bold;
+    margin-bottom: 24px;
+}
+  @media screen and (max-width:700px) {
+    .userCard{
+      flex-direction: column;
+      padding: 0;
+    }
+    .right , .left .third {
+      width: 90%;
+      /* align-items: center; */
+      justify-content: center;
+    }
+    .right{
+      /* align-items: center; */
+      margin: 0;
+    }
+    .right img{
+      align-self: center;
+      width: 80%;
+    }
+    .third{
+      width: 90%;
+      margin-top: 50px;
+    }
+  }

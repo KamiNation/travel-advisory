@@ -1,0 +1,173 @@
+{
+    "advisors": [
+        {
+            "image":"/src/dbServer/dbImages/myProfile.jpg",
+            "firstName": "Khabab",
+            "lastName": "Tajudeen",
+            "email": "taj@travel.com",
+            "phoneNo": "+2347010409001",
+            "gender": "male",
+            "coordinates": {
+                "latitude": 6.5244,
+                "longitude": 3.3792
+            },
+            "region": "Lagos",
+            "country": "Nigeria" 
+        },
+        {
+            "image":"/src/dbServer/dbImages/116590638.jpeg",
+            "firstName": "Fatima",
+            "lastName": "Umar",
+            "email": "fumar@travel.com",
+            "phoneNo": "+2347098765432",
+            "gender": "female",
+            "coordinates": {
+                "latitude": 12.0022,
+                "longitude": 8.5919
+            },
+            "region": "Kano",
+            "country": "Nigeria"
+        },
+        {
+            "image":"/src/dbServer/dbImages/635834363.jpeg",
+            "firstName": "Yetunde",
+            "lastName": "Adebayo",
+            "email": "yadebayo@travel.com",
+            "phoneNo": "+2347054321098",
+            "gender": "female",
+            "coordinates": {
+                "latitude": 7.3775,
+                "longitude": 3.947
+            },
+            "region": "Oyo",
+            "country": "Nigeria"
+        },
+        {
+            "image":"/src/dbServer/dbImages/658017549.jpeg",
+            "firstName": "Chukwuemeka",
+            "lastName": "Nwachukwu",
+            "email": "cnwachukwu@travel.com",
+            "phoneNo": "+2347065432109",
+            "gender": "male",
+            "coordinates": {
+                "latitude": 6.5244,
+                "longitude": 7.4334
+            },
+            "region": "Anambra",
+            "country": "Nigeria"
+        },
+        {
+            "image":"/src/dbServer/dbImages/566788630.jpeg",
+            "firstName": "Aisha",
+            "lastName": "Musa",
+            "email": "amusa@travel.com",
+            "phoneNo": "+2347098765432",
+            "gender": "female",
+            "coordinates": {
+                "latitude": 10.5162,
+                "longitude": 7.4386
+            },
+            "region": "Kaduna",
+            "country": "Nigeria"
+        },
+        {
+            "image":"/src/dbServer/dbImages/622780215.jpeg",
+            "firstName": "Ayodele",
+            "lastName": "Babatunde",
+            "email": "ayobabatunde@travel.com",
+            "phoneNo": "+2347054321098",
+            "gender": "male",
+            "coordinates": {
+                "latitude": 7.9784,
+                "longitude": 4.5624
+            },
+            "region": "Osun",
+            "country": "Nigeria"
+        },
+        {
+            "image":"/src/dbServer/dbImages/kami.jpeg",
+            "firstName": "Israel",
+            "lastName": "Adedamola",
+            "email": "israeladebayo@travel.com",
+            "phoneNo": "+2347086534075",
+            "gender": "male",
+            "coordinates": {
+                "latitude": 6.9086,
+                "longitude": 3.1763
+            },
+            "region": "Ogun",
+            "country": "Nigeria"
+        },
+        {
+            "image":"/src/dbServer/dbImages/397015069.jpeg",
+            "firstName": "Obinna",
+            "lastName": "Okafor",
+            "email": "obokafor@travel.com",
+            "phoneNo": "+2347065432109",
+            "gender": "male",
+            "coordinates": {
+                "latitude": 6.4483,
+                "longitude": 7.5247
+            },
+            "region": "Enugu",
+            "country": "Nigeria"
+        },
+        {
+            "image":"/src/dbServer/dbImages/494627508.jpeg",
+            "firstName": "Zainab",
+            "lastName": "Sani",
+            "email": "zsani@travel.com",
+            "phoneNo": "+2347098765432",
+            "gender": "female",
+            "coordinates": {
+                "latitude": 12.1731,
+                "longitude": 6.6431
+            },
+            "region": "Zamfara",
+            "country": "Nigeria"
+        },
+        {
+            "image":"/src/dbServer/dbImages/483785275.jpeg",
+            "firstName": "Oluwafemi",
+            "lastName": "Adeola",
+            "email": "oadeola@travel.com",
+            "phoneNo": "+2347054321098",
+            "gender": "male",
+            "coordinates": {
+                "latitude": 7.6302,
+                "longitude": 4.1836
+            },
+            "region": "Ekiti",
+            "country": "Nigeria"
+        },
+        {
+            "image":"/src/dbServer/dbImages/660688098.jpeg",
+            "firstName": "Mariam",
+            "lastName": "Abubakar",
+            "email": "mabubakar@travel.com",
+            "phoneNo": "+2347012345678",
+            "gender": "female",
+            "coordinates": {
+                "latitude": 9.0579,
+                "longitude": 7.4951
+            },
+            "region": "Abuja",
+            "country": "Nigeria"
+        },
+        {
+            "image":"/src/dbServer/dbImages/353803551.jpeg",
+            "firstName": "Abdul",
+            "lastName": "Suleiman",
+            "email": "asuleiman@travel.com",
+            "phoneNo": "+2347098765432",
+            "gender": "male",
+            "coordinates": {
+                "latitude": 11.9656,
+                "longitude": 8.4626
+            },
+            "region": "Sokoto",
+            "country": "Nigeria"
+        }
+    ]
+}
+

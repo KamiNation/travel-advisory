@@ -1,0 +1,227 @@
+.satisfactionContainer {
+    display: flex;
+    flex-direction: column;
+    /* padding-top: 20vh; */
+    /* height: 2.5vh; */
+    /* margin-top: 7%; */
+    margin-bottom: 10%;
+    width: 90%;
+    align-items: center;
+    background:linear-gradient(90deg, #00000010, #00000010, #00000010), url('/src/assets/map.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* padding-bottom: 5%; */
+    padding: 5% 0 5% 0;
+    background-position: center;
+    opacity: 1rem;
+    align-self: center;
+    /* position: absolute; */
+}
+
+
+.satisfactionContainer #section {
+    /* padding-top: 4vh; */
+    height: auto;
+    /* width: 100% */
+    /* margin: 0 10rem; */
+    /* box-sizing: border-box; */
+    /* min-height: fit-content; */
+  }
+
+
+.satisfactionContainer>h1 {
+    font-size: 3.5rem;
+    text-align: center;
+}
+
+.satisfactionContainer>h4 {
+    font-size: 1.1rem;
+    margin-top: 1.5rem;
+    text-align: center;
+    font-weight: 400;
+}
+.satisfactions{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+}
+.satisfactions .satis{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    justify-content: space-between;
+}
+
+ .satisfaction {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 19%;
+    padding: 1.1rem;
+    text-align: center;
+    /* margin-left: 10px; */
+    background-color: F9F9F9;
+    /* border-color: rgba(0, 184, 224, 1); */
+    background: rgb(216, 229, 231);
+    border-radius: 0.9rem;
+}
+
+.satisfaction>h3 {
+    margin-bottom: 1rem;
+    color: black;
+}
+
+.satisfaction>p{
+    
+}
+
+.satisfactionDiv {
+    width: 43px;
+    height: 43px;
+    margin-bottom: 1rem;
+}
+
+.satisfactionDiv>img {
+    width: inherit;
+    height: inherit;
+}
+
+
+
+@media  screen and (max-width: 1024px)  {
+    .satisfactionContainer>h1 {
+        font-size: 2.5rem;
+        text-align: center;
+    }
+    .satisfaction>p{
+        font-size: 0.8rem;
+    }
+    .satisfactionContainer>h4 {
+        font-size: 0.9rem;
+        margin-top: 1.5rem;
+        text-align: center;
+    }
+    .satisfaction{
+        width: 18%;
+    }
+    #section{
+        /* padding-top: 15vh; */
+    }
+}
+
+
+@media screen and  (max-width: 768px){
+    #section{
+        /* margin: 0 2rem; */
+        /* padding-top: 30vh; */
+        /* margin-bottom: 26vh; */
+    }
+
+    .satisfactionContainer>h1 {
+        font-size: 2rem;
+        text-align: center;
+    }
+   .satisfaction > p{
+       font-size: 0.6rem;
+       
+   }
+    .satisfactions {
+        /* column-gap: 1rem; */
+        column-gap: 1rem;
+        display: flex;
+        /* flex-direction: column; */
+        /* margin-top: 2.5rem; */
+        justify-content: center;
+        align-items: center;
+        /* padding: 0.9rem; */
+        margin-top: 5%;
+        flex-wrap: calc();
+    }
+
+
+
+    .satisfactionContainer>h4 {
+        font-size: 1rem;
+        margin-top: 1.5rem;
+        text-align: center;
+    }
+    .satisfactions .satis{
+        display: flex;
+        flex-direction: row;
+        /* width: 90%; */
+        align-items: center;
+       /* margin: 0; */
+        justify-content: space-around;
+    }
+    .satisfaction{
+        width: 15%;
+        margin-bottom: 10px;
+    }
+    .satisfactionDiv {
+        width: 36px;
+        height: 36px;
+        margin-bottom: 1rem;
+    }
+
+   .satisfactionDiv>img {
+        width: inherit;
+        height: inherit;
+    }
+
+    .satisfactionContainer {
+        /* padding-top: 15vh; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }.satisfaction>h3 {
+        margin-bottom: 1rem;
+        color: black;
+        font-size: 1rem;
+    }
+}
+
+
+@media screen and  (max-width: 480px) {
+
+
+    .satisfactionContainer>h1 {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    .satisfaction>p{
+        font-size: 0.8rem;
+    }
+    .satisfactionContainer>h4 {
+        font-size: 0.8rem;
+        margin-top: 1.5rem;
+        text-align: center;
+    }
+
+    .satisfactions .satis{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        align-items: center;
+       
+        justify-content: space-around;
+    }
+    .satisfaction{
+        width: 60%;
+        margin-bottom: 10px;
+    }
+    .satisfactions {
+        display: flex;
+        flex-direction: column;
+        margin-top: 2.5rem;
+        row-gap: 1rem;
+        
+        align-items: center;
+    }
+
+
+
+   
+}

@@ -1,0 +1,348 @@
+#section {
+  /* padding-top: 20vh; */
+  height: auto;
+  width: 90%;
+  margin-bottom: 10%;
+  /* margin: 0 10rem; */
+  box-sizing: border-box;
+  min-height: fit-content;
+}
+
+
+
+
+.pgTitle {
+  color: #000000;
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+
+
+.buDis {
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  column-gap: 0.5rem;
+}
+
+
+#itemBut:first-child {
+  background-color: #00A651;
+  text-align: center;
+  cursor: pointer;
+}
+
+#itemBut {
+  cursor: pointer;
+  background-color: rgba(102, 102, 102, 1);
+  border-radius: 10px;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  flex: 1;
+}
+
+.cardPgCon {
+  display: flex;
+  align-items: center;
+  column-gap: 1rem;
+
+}
+
+
+.cardDetails {
+  /* border-style: solid;
+  border-radius: 1rem;
+  border-color: aqua; */
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.5rem;
+  margin-top: 0.2rem;
+}
+
+.cardDetailsOne,
+.cardDetailsThree {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+.discover {
+  padding: 15px 40px;
+  border-radius: 10px;
+  background-color: #00A651;
+  border: 0;
+  color: #ffffff;
+  font-size: 18px;
+  margin-top: 0.5rem;
+}
+
+
+
+
+.myCards {
+
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  padding: 1rem;
+
+  /* border-style: solid;
+  border-radius: 1rem;
+  border-color: aqua; */
+}
+.cardDetails>div>p {
+  text-align: center;
+  /* color: red; */
+  /* font-size: 0.6rem; */
+}
+.myCardsImage {
+  width: 100%;
+  height: 100%;
+}
+.pgTitle>h1 {
+  font-size: 3.5rem;
+}
+img {
+  width: inherit;
+  height: inherit;
+}
+
+.Bot {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.discount{
+  position: relative;
+}
+
+.discount::before{
+  content: '10%';
+  position: absolute;
+  top: -230px;
+  left: 230px;
+  width: 40px;
+  height: 40px;
+  color: red;
+  background: #fff;
+  text-align: center;
+  font-size: 12px;
+  line-height: 40px;
+  vertical-align: middle;
+  border-radius: 5px;
+  font-weight: bold;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+@media screen and  (max-width: 1025px){
+
+}
+
+
+@media screen and  (max-width: 1024px) {
+ 
+
+  .buttonPg {
+    margin-bottom: 1rem;
+  }
+
+  .pgTitle {
+    margin-bottom: 1rem;
+  }
+  .pgTitle>h1 {
+    font-size: 2.5rem;
+  }
+  .Bot {
+    margin-top: 0.5rem;
+  }
+ #itemBut {
+   
+    border-radius: 10px;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.7rem;
+    flex: 1;
+}
+}
+
+@media screen and  (max-width: 768px){
+  #section {
+   
+   
+  }
+
+  .discover {
+    padding: 10px 30px;
+    border-radius: 10px;
+    background-color: #00A651;
+    border: 0;
+    color: #ffffff;
+    font-size: 18px;
+    margin-top: 0.5rem;
+  }
+  
+  .myCards {
+
+    display: flex;
+    flex: 1;
+    padding: 1rem;
+    column-gap: 1rem;
+
+    
+  }
+
+  .myCardsImage {
+    width: 100%;
+    height: 100%;
+  }
+
+  .cardPgCon {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+  }
+
+  .buDis {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    row-gap: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .cardDetails {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .pgTitle>h1 {
+    font-size: 2rem;
+  }
+  
+  
+  
+  
+  
+ .cardDetails p{
+  font-size: 0.8rem;
+ }
+  .buttonPg {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+
+ 
+ 
+
+ 
+  #itemBut {
+    flex: 1 1 30%;
+    /*grow | shrink | basis */
+    /* height: 100px; */
+    padding: 10px 4px;
+    font-size: 1.3rem;
+  }
+
+  .pgTitle {
+    margin-bottom: 1rem;
+  }
+
+
+
+
+}
+
+@media screen and  (max-width: 480px) {
+
+  #section {
+    /* margin: 0 1rem; */
+    /* padding-top: 200%; */
+    /* margin-bottom: 100%; */
+  }
+  .discover {
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: #00A651;
+    border: 0;
+    color: #ffffff;
+    font-size: 18px;
+    margin-top: 0.5rem;
+  }
+  
+  .cardPgCon {
+    display: flex;
+    row-gap: 1rem;
+    flex-direction: column;
+  }
+
+
+
+  .myCardsImage {
+    width: 100%;
+    height: 100%;
+  }
+
+  .myCards {
+
+    display: flex;
+    flex: 1;
+    /* flex-direction: row; */
+    padding: 1rem;
+    column-gap: 1rem;
+
+    /* border-style: solid;
+    border-radius: 1rem;
+    border-color: aqua; */
+  }
+
+  .buttonPg {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .buDis {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    row-gap: 1rem;
+    margin-bottom: 0.5rem;
+  }
+
+  #itemBut {
+    flex: 1 1 30%;
+    /*grow | shrink | basis */
+    /* height: 100px; */
+    padding: 10px 7px;
+    font-size: 1rem;
+  }
+
+  .pgTitle {
+    margin-bottom: 1rem;
+  }
+
+  .pgTitle>h1 {
+    font-size: 1.5rem;
+  }
+
+  .cardDetails>div>p {
+    text-align: center;
+    color: red;
+    font-size: 0.9rem;
+  }
+}

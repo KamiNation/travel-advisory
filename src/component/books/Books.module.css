@@ -1,0 +1,215 @@
+div,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0px;
+    padding: 0px;
+}
+
+#section {
+    /* padding-top: 10%; */
+    margin-bottom: 10%;
+    width: 90%;
+    /* height: 20vh; */
+    /* margin: 0 1rem; */
+    box-sizing: border-box;
+    min-height: fit-content;
+    /* margin-bottom: 80vh; */
+  }
+
+
+.booksContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bookMapRight {
+    display: flex;
+   flex-wrap: wrap;
+    margin-top: 2.8rem;
+}
+
+
+.bookCard {
+    display: flex;
+    border-radius: 1rem;
+    padding: 1rem;
+    width: 80%;
+    background-color: #e6d7d7d1;
+    margin: 0 10px;
+      align-self: center;
+}
+
+.bookCardOne {
+    width: 485px;
+    /* width: 100%; */
+    height: 400px;
+    /* height: 100%; */
+}
+
+.firstPart>img {
+    width: inherit;
+    height: inherit;
+}
+
+.firstPart>img {
+    width: 60px;
+    height: 60px;
+}
+
+.bookMap {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    row-gap: 1rem;
+    width: 100%;
+  
+}
+
+.h4p {
+    display: flex;
+    flex-direction: column;
+    padding-left: 24px;
+}
+
+
+
+@media screen and (min-width: 1025px) {
+    #section{
+    /* margin-bottom: 100vh; */
+
+    }
+
+    .bookCard {
+        display: flex;
+        flex: 1;
+        /* padding: 1rem; */
+     
+        justify-content: center;
+        align-items: center;
+
+        /* border-color: aqua;
+        border-radius: 1rem;
+        border-style: solid; */
+    }
+
+    .booksContainer>h2 {
+        font-size: 2.5rem;
+        margin-bottom: 1rem;
+    }
+
+    .booksContainer > p {
+        font-size: 2rem;
+    }
+
+}
+
+@media screen and  (max-width: 1024px) {
+    .bookMapRight {
+        display: flex;
+        flex-direction: column;
+        /* row-gap: 3rem; */
+        margin-top: 1rem;
+    }
+
+
+    .bookCardOne {
+        width: 200px;
+        height: 200px;
+    }
+
+    .firstPart>img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: inherit;
+        height: inherit;
+    }
+
+    .bookCard {
+        display: flex;
+        flex: 1;
+        /* padding: 1rem; */
+
+        justify-content: center;
+        align-items: center;
+    }
+
+    .booksContainer>h2 {
+        font-size: 1.9rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .h4p>h4 {
+        margin-bottom: 0.5rem;
+    }
+
+}
+
+@media  screen and (max-width: 768px)  {
+
+    #section{
+        /* padding-top: 450%; */
+        /* margin-bottom: 250%; */
+        /* margin-bottom: 85%; */
+        /* margin-bottom: 100vh; */
+        /* padding-top: 280vh; */
+    }
+
+    .bookMapRight {
+        display: flex;
+        flex-direction: column;
+        row-gap: 3rem;
+        margin-top: 1.8rem;
+    }
+
+    .bookCard {
+        display: flex;
+        flex: 1;
+        padding: 1rem;
+
+        justify-content: center;
+        align-items: center;
+
+        /* border-color: aqua; */
+        /* border-radius: 1rem; */
+        /* border-style: solid; */
+    }
+
+    .h4p {
+        padding-left: 24px;
+        row-gap: 0.2rem;
+    }
+
+    .h4p>p {
+        font-size: 0.9rem;
+    }
+
+    .bookCardOne {
+        width: 200px;
+        height: 200px;
+    }
+
+    .firstPart>img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: inherit;
+        height: inherit;
+    }
+
+    .booksContainer>h2 {
+        font-size: 2rem;
+        margin-bottom: 0.5rem;
+        text-align: center;
+    }
+
+    .booksContainer > p {
+        font-size: 1rem;
+    }
+}

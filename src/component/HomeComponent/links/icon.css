@@ -1,0 +1,17 @@
+#iccon{
+    display: flex;
+}
+#iccon span{
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+}
+#icon span p{
+    margin-left: 10px;
+    font-size: 1rem;
+    font-weight: 600;
+}
+#icon a{
+    color: #fff;
+    text-decoration: none;
+}

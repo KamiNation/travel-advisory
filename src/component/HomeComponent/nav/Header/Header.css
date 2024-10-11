@@ -1,0 +1,108 @@
+#header {
+    width: 100%;
+    /* position: absolute; */
+    /* bottom: 0; */
+    /* top: 12%; */
+    display: flex;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(90deg , #000000b0,#ffffff00),  url("/src/assets/3dtravel.jpg");
+    background-position: center;
+    background-size: cover;
+    
+  font-family: 'Playfair Display';
+    background-repeat: no-repeat;
+}
+#myVideo {
+    /* position: absolute; */
+    /* right: 0; */
+    /* bottom: 0; */
+    width: 100%;
+    /* background:linear-gradient(90deg , #00000059,#00000059) ; */
+    min-height: 100%;
+  }
+
+#headerword {
+    width: 90%;
+    text-align: center;
+    margin-top: 7%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 7%;
+}
+.conq{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.each{
+    margin: 1%;
+    margin-bottom: 0;
+}
+#headerword h3 {
+    color: #ffffff;
+    font-size: 4rem;
+    text-shadow: 3px 3px 2px rgb(0, 0, 0);
+    padding-bottom: 3%;
+}
+
+#headerword p {
+    padding-bottom: 7%;
+    width: 70%;
+    font-size: 1.7rem;
+    font-weight: 500;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 2px 2px 5px #000;
+}
+
+@media screen and (max-width:1000px) {
+
+    #headerword h3{
+        font-size: 2.5rem;
+    }
+    #headerword p{
+        font-size: 1.5rem;
+    }
+    #headerword{
+        /* margin-bottom: 50px; */
+    }
+}
+@media screen and (max-width:700px) {
+
+    #headerword h3{
+        font-size: 1.5rem;
+    }
+    #headerword p{
+        font-size: 1.2rem;
+    }
+}
+@media screen and (max-width:550px) {
+    #headerword h3{
+        font-size: 1.3rem;
+    }
+    #headerword p{
+        font-size: 1.1rem;
+    }
+}
+@media screen and (max-width:500px) {
+    #headerword h3{
+        font-size: 1.4rem;
+    }
+    #headerword p{
+        font-size: 1.1rem;
+    }
+}
+@media screen and (max-width:425px) {
+    #headerword h3{
+        font-size: 1.2rem;
+    }
+    #headerword p{
+        font-size: 0.8rem;
+    }
+}

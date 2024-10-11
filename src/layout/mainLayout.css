@@ -1,0 +1,23 @@
+ #layout{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    height: auto;
+    /* background-color: rgb(219, 217, 213); */
+    
+}
+#nav{
+    background: linear-gradient(90deg , #000000bc,#619bbea5), url("/src/assets/backGd.png") ;
+    background-position: center;
+    width: 100%;
+    background-size: cover;
+    z-index: 3;
+    background-repeat: no-repeat;
+}
+#display{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+}
